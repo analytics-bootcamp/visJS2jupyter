@@ -1220,6 +1220,7 @@ def create_graph_style_file(filename = 'visJS_html_file_temp',
                          label: python_nodes[i]."""+node_label_field+""",
                          borderWidth: python_nodes[i].border_width * """ + str(scaling_factor) + """,
                          borderWidthSelected: """+str(node_border_width_selected)+""",
+                         fixed:python_nodes[i].fixed,
                          color: {
                              background: python_nodes[i].color,
                              border: python_nodes[i].border_color,
