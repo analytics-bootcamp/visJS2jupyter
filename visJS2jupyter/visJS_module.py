@@ -1124,6 +1124,7 @@ def create_graph_style_file(filename = 'visJS_html_file_temp',
             tooltipDelay: """ + str(tooltip_delay) + """,
             zoomView: """ + zoom_view + """
           },
+          manipulation:{enabled:true},
           layout: {
             improvedLayout:true,
             hierarchical: {
